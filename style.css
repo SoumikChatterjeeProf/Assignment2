@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    /* background-color: red; */
+
+}
+
+#sec1{
+    height: 20vmax;
+    background-color: rgb(67, 82, 89);
+}
+
+#sec2{
+    height: 50vmax; 
+    display: flex;
+    padding-top: 2.2vmax;
+    background-color: rgb(245, 244, 240);
+    position: relative;
+}
+
+#sec3{
+    height: 40vmax;
+    background-color:rgb(235, 234, 230);
+    padding-top: 20px;
+}
+
+#nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+#nav div{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+#nav div p{
+    font-size: 1.2vmax;
+    padding: 10px;
+}
+#verse{
+    font-size: 5vmax;
+    color: rgba(255, 166, 0, 0.865);
+}
+
+#text{
+    display: flex;
+    color: white;
+}
+#NewPoetry{
+    width: 20vmax;
+    font-size: 4vmax;
+    margin-left: 10%;
+}
+#signUp{
+    width: 26vmax;
+    margin-left: 30%;
+}
+#signUp p{
+    font-size: 1.2vmax;
+}
+#email{
+    margin-top: 10%;
+    width: 15vmax;
+    height: 3.5vmax;
+}
+button:hover{
+    background-color:gray;
+    cursor: pointer;
+}
+button{
+    width: 6vmax;
+    height: 3.5vmax; 
+    margin-left: 2%;   
+    font-size:1.1vmax ;
+}
+i{
+    margin-top: 1vmax;
+    margin-right: 5%;
+}
+#search:hover{
+    color: wheat;
+    cursor: pointer;
+}
+#search p{
+    padding: 0;
+}
+#blackness
+{
+    width: 35vmax;
+    margin-left: 10vmax;
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+}
+#blackness h1{
+    font-size: 2.4vmax;
+}
+#blackness h4{
+    font-size: 1.3vmax;
+}
+
+#blackness p{
+    font-size: 1.2vmax;
+}
+
+
+.vertical{
+    position: absolute;
+    top: 5.5rem;
+    left: 1px;
+    rotate: 270deg;
+    color: rgb(204, 150, 33);
+    font-size: 1.2vmax;
+}
+#list
+{
+margin-left: 20vmax;
+gap:20px;
+display:flex;
+flex-direction: column;
+}
+#list div{
+    display: flex;
+    gap: 20px;
+    font-size: 1.2vmax;
+}
+span{
+    font-size: 2vmax;
+    color: antiquewhite;
+    background-color: black;
+    width: 10%;
+    padding-left: 3%;
+}
+
+img{
+    height: 17vmax;
+    width: 10vmax ;
+}
+#images{
+    margin: auto;
+    font-size: 1.2vmax;
+}
+#img{
+    display: flex;
+    gap: 20px;
+    height: 4vmax;
+    padding:20px;
+    justify-content: center;
+  align-items: center;
+}
+#images p{
+    width: 10vw;
+}
+#sec3>p{
+    color: rgb(205, 133, 0);
+    font-weight: bold;
+    font-size: 70%;
+    padding-left: 2vw;
+}
+#hovers:hover{
+    sele
+}
